@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>host</title>
+  <style>
+    body{
+      background-image: url("https://www.meratusline.com/storage/home/about/1612157012.jpeg");
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+</div>
+
+<div class="p-20">
+  <button onclick="user()" class="bg-gray-300 hover:bg-gray-400 text-blue-900 font-bold py-2 px-4 rounded-r h-100">
+    User
+  </button>
+  <div id="myuser">
+    <div id="user"></div>
+    </div>
+
+  <button onclick="Role()" class="bg-gray-300 hover:bg-gray-400 text-blue-900 font-bold py-2 px-4 rounded-r">
+    Role
+  </button>
+  <div id="myrole">
+    <div id="role"></div>
+    </div>
+
+    <button onclick="log()" class="bg-gray-300 hover:bg-gray-400 text-blue-900 font-bold py-2 px-4 rounded-r">
+      Log
+    </button>
+    <div id="mylog">
+      <div id="log"></div>
+      </div>
+
+
+  <script>
+    function user() {
+      var x = document.getElementById("myuser");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+
+    function Role() {
+      var x = document.getElementById("myrole");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+
+      function log() {
+      var x = document.getElementById("mylog");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
+</body>
+</html>
